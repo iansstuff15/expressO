@@ -1,0 +1,35 @@
+Creating React Native App Step by step:
+
+1. Installing Expo-cli
+$npm install -g expo-cli
+
+2. Install Expo Client for Mobile View Rendering
+-Go to App Store then search for Expo Client
+
+3. Download VSC and Insall thes Extensions (Optional)
+-React Native Tools by Microsoft
+-React-Native/React/Redux Snippets by EQuimper
+-Prettier Code Formatter by Esben
+-Material Icon Theme
+
+cd C:\Users\Bryan Joel\Desktop\ReactApp\mynativereact
+
+4. File->Preferences->Settings then search "formatonsave" check it. (Optional)
+
+5. Once expo-cli properly installed you can now create a React Native app:
+$expo init <AppName>
+-Under Manage workflow choose "blank"
+
+6. Navigate to the folder <AppName>
+
+7. Finally running it using:
+$npm start
+
+8. To run your AVD smoothly run this command:
+$cd C:\Users\Bryan Joel\AppData\Local\Android\Sdk\emulator
+$emulator -list-avds
+$emulator -avd Pixel_3a_API_30_x86 -gpu on
+
+
+<Newsfeed url={posts[].url} title={posts[0].title} desc={posts[0].desc}/>
+
