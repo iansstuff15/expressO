@@ -7,6 +7,10 @@
     "web": "expo start --web",
     "eject": "expo eject"
   },
+  "android": {
+    "package": "com.alagadngcaffeine.expresso",
+    "versionCode": 1
+  },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.10",
     "@react-navigation/native": "^5.7.4",

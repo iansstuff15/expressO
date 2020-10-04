@@ -10,7 +10,6 @@ import ProductInfo from "./screens/ProductInfo";
 import Profile from "./screens/Profile";
 import Search from "./screens/search";
 import Welcome from "./screens/Welcome";
-import SplashScreen from "react-native-splash-screen";
 
 const Stack = createStackNavigator();
 

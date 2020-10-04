@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mynativereact",
-    "slug": "mynativereact",
+    "name": "expressO",
+    "slug": "expresso",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,6 +21,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "android": {
+      "package": "com.alagadngcaffeine.expresso"
+    },
+    "description": ""
   }
 }
