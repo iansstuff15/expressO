@@ -9,7 +9,6 @@ import {
 } from "react-native";
 
 export default function List(props) {
-  console.log(props);
   return (
     <View
       style={{

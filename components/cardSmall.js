@@ -25,9 +25,9 @@ export default function Card(props) {
         <Text
           style={{
             fontWeight: "bold",
-            fontSize: 40,
-            marginTop: 10,
-            marginLeft: 30,
+            fontSize: 30,
+            marginTop: -0,
+            marginLeft: 10,
           }}
         >
           {props.name}
@@ -53,12 +53,12 @@ const styles = StyleSheet.create({
 
   card: {
     flex: 1,
-    height: 300,
-    width: 400,
+    height: 400,
+    width: 300,
     borderRadius: 20,
     alignSelf: "center",
-    margin: 20,
-    marginTop: 0,
+    margin: 10,
+    backgroundColor: "#ffffff",
   },
   shadow: {
     shadowColor: "#000000",
@@ -71,5 +71,5 @@ const styles = StyleSheet.create({
 
     elevation: 20,
   },
-  lowerView: {},
+  lowerView: { height: 100, width: 300 },
 });

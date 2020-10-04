@@ -17,11 +17,9 @@ export default function ProductView(props) {
   return (
     <TouchableOpacity
       onPress={() => {
-        console.log(props.item);
         props.navigation.navigate("ProductInfo", props.item);
       }}
     >
-      {console.log(props.item)}
       <View style={styles.productView}>
         <Image
           source={props.item.image}

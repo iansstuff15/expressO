@@ -58,6 +58,7 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     alignSelf: "center",
     margin: 10,
+    backgroundColor: "#ffffff",
   },
   shadow: {
     shadowColor: "#000000",
@@ -70,5 +71,5 @@ const styles = StyleSheet.create({
 
     elevation: 20,
   },
-  lowerView: {},
+  lowerView: { height: 100, width: 300 },
 });

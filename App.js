@@ -14,7 +14,6 @@ import Welcome from "./screens/Welcome";
 const Stack = createStackNavigator();
 
 export default function App() {
-  console.log("in app");
   return (
     <NavigationContainer>
       <Stack.Navigator>

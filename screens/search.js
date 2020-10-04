@@ -31,7 +31,6 @@ export default function Search({ route, navigation }) {
           value={searchQuery}
         />
       </View>
-      {console.log(route.params)}
 
       <View>
         <FlatList

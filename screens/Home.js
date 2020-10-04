@@ -20,7 +20,6 @@ import More from "../components/More";
 
 export default function Home({ navigation, route }) {
   const [count, add] = useState({ count: route.params.cart });
-  console.log(count.count);
 
   const [data, setData] = useState([
     {
@@ -38,7 +37,7 @@ export default function Home({ navigation, route }) {
       volume: "12oz",
       description:
         "Cafè macchiato a espresso coffee drink with a small amount of milk, usually foamed.",
-      image: require("../assets/Cafe Macchiato.png"),
+      image: require("../assets/CafeMacchiato.png"),
       key: 2,
     },
     {
@@ -88,7 +87,7 @@ export default function Home({ navigation, route }) {
       price: "$55",
       volume: "12oz",
       description: "Yuanyang a mixture of coffee and Hong Kong-style milk tea.",
-      image: require("../assets/Yuanyang Coffee.png"),
+      image: require("../assets/YuanyangCoffee.png"),
       key: 8,
     },
 
@@ -107,7 +106,7 @@ export default function Home({ navigation, route }) {
       volume: "12oz",
       description:
         "Coffee mixed with a dash of Irish whiskey and served with cream on top.",
-      image: require("../assets/Irish Coffee.png"),
+      image: require("../assets/IrishCoffee.png"),
 
       key: 10,
     },
@@ -116,8 +115,8 @@ export default function Home({ navigation, route }) {
       price: "$35",
       volume: "12oz",
       description: "Iced coffee is a coffee served chilled.",
-      image: require("../assets/Iced Coffeee.png"),
-      key: 10,
+      image: require("../assets/IcedCoffeee.png"),
+      key: 11,
     },
     {
       name: "Tearone",
@@ -126,7 +125,7 @@ export default function Home({ navigation, route }) {
       description:
         "The beverage that will make you handsome in as instant as an instant coffee",
       image: require("../assets/Tearone.png"),
-      key: 10,
+      key: 12,
     },
   ]);
   return (
@@ -145,7 +144,7 @@ export default function Home({ navigation, route }) {
         </View>
 
         <FlatList
-          style={{ padding: 30 }}
+          style={{ padding: 50 }}
           data={data}
           renderItem={({ item }) => (
             <Card

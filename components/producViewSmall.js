@@ -10,11 +10,16 @@ import {
 
 export default function ProductView() {
   return (
-    <TouchableOpacity onPress={() => console.log("pic pressed")}>
+    <TouchableOpacity>
       <View style={styles.productView}>
         <Image
           source={require("../assets/purepng.com-cup-mug-coffeecupmugcoffeebean-1411527408162tgys6.png")}
-          style={{ alignSelf: "center" }}
+          style={{
+            marginTop: 50,
+            alignSelf: "center",
+            height: 102,
+            width: 136,
+          }}
         />
       </View>
     </TouchableOpacity>
@@ -24,10 +29,11 @@ export default function ProductView() {
 const styles = StyleSheet.create({
   productView: {
     backgroundColor: "#DFA75E",
-
-    height: 100,
-    width: 200,
-    borderTopLeftRadius: 20,
-    borderTopRightRadius: 20,
+    //  padding: 140,
+    height: 150,
+    width: 400,
+    borderTopLeftRadius: 50,
+    borderTopRightRadius: 50,
+    margin: 50,
   },
 });

@@ -50,7 +50,6 @@ export default function ProductInfo({ route, navigation }) {
       <View style={{ marginLeft: 30 }}>
         <View style={styles.row}>
           <Text style={[styles.bold, { marginRight: 10, fontSize: 30 }]}>
-            {console.log(route.params)}
             {route.params.name}
           </Text>
           <Text style={(styles.bold, { fontSize: 20 })}>

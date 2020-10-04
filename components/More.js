@@ -19,7 +19,6 @@ import Search from "../screens/search";
 export default function More(props) {
   return (
     <View>
-      {console.log(props.data)}
       <TouchableOpacity
         onPress={() => props.navigation.navigate("Search", props.data)}
       >

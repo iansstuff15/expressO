@@ -16,7 +16,7 @@ export default function ImageComp({ navigation }) {
     <View style={styles.image}>
       <TouchableOpacity onPress={() => navigation.navigate(Profile)}>
         <Image
-          source={require("../assets/Ellipse 2.png")}
+          source={require("../assets/Ellipse2.png")}
           style={{ height: 50, width: 50 }}
         />
       </TouchableOpacity>
@@ -26,9 +26,7 @@ export default function ImageComp({ navigation }) {
 
 const styles = StyleSheet.create({
   image: {
-    marginTop: 20,
-    marginRight: 20,
-    alignSelf: "flex-end",
-    borderRadius: 100,
+    marginTop: 60,
+    marginLeft: 20,
   },
 });

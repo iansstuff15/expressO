@@ -63,7 +63,7 @@ export default function Profile({ route }) {
 const styles = StyleSheet.create({
   profile: {
     backgroundColor: "#DFA75E",
-    borderRadius: "100%",
+    borderRadius: 100,
     height: 200,
     width: 200,
     alignSelf: "center",
